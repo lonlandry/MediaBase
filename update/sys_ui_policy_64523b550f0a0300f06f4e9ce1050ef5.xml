@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_132308_mediabase_equipment">u_equipment_condition_purch=b7d1317f0f210700f06f4e9ce1050e20^ORu_equipment_condition_purch=b262f57f0f210700f06f4e9ce1050e52^EQ<item display_table="x_132308_mediabase_condition" display_value="New" endquery="false" field="u_equipment_condition_purch" goto="false" newquery="false" operator="=" or="false" value="b7d1317f0f210700f06f4e9ce1050e20"/>
+            <item display_table="x_132308_mediabase_condition" display_value="Scrap" endquery="false" field="u_equipment_condition_purch" goto="false" newquery="false" operator="=" or="true" value="b262f57f0f210700f06f4e9ce1050e52"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>3820</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+g_form.setDisplay('u_equipment_refurbished', false);
+g_form.clearValue('u_equipment_refurbished');
+}]]></script_true>
+        <set_values/>
+        <short_description>Equipment - Hide &amp; Clear the Refurbished field if New or Scrap is seleceted as Condition at purchase.</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-26 03:14:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64523b550f0a0300f06f4e9ce1050ef5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Equipment - Hide &amp; Clear the Refurbished field if New or Scrap is seleceted as Condition at purchase.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_ui_policy_64523b550f0a0300f06f4e9ce1050ef5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-26 13:13:39</sys_updated_on>
+        <table>x_132308_mediabase_equipment</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

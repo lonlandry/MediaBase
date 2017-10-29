@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_month_name" label="Name of Month" language="en" table="x_132308_mediabase_months">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_month_name</element>
+            <help/>
+            <hint/>
+            <label>Name of Month</label>
+            <language>en</language>
+            <name>x_132308_mediabase_months</name>
+            <plural>Name of Months</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-08 03:19:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>93a74faf0f69c300f06f4e9ce1050e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Name of Month</sys_name>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_documentation_x_132308_mediabase_months_u_month_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-08 03:19:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

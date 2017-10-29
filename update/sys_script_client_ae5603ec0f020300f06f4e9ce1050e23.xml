@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_scope</field>
+        <global>true</global>
+        <messages/>
+        <name>Books - Set display First edition flag</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   if (!isLoading) {
+    
+      if(u_book_type_of_book == '[2]'){
+      if(u_book_calssification == '[0]'){
+
+   g_form.setDisplay('u_book_first_edition', true);
+	  }
+	  }
+}}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 16:04:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ae5603ec0f020300f06f4e9ce1050e23</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Books - Set display First edition flag</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_script_client_ae5603ec0f020300f06f4e9ce1050e23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-25 12:45:39</sys_updated_on>
+        <table>x_132308_mediabase_books</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

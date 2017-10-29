@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Display u_video_audio or u_video_audio_es based on session language - en&#13;
+Display u_video_subtitles or u_video_subtitulos based on session language - en&#13;
+Mostrar u_video_audio o u_video_audio_es porque en el idioma de la sesión - es&#13;
+Mostrar u_video_subtitles o u_video_subtitulos porque en el idioma de la sesión - es</description>
+        <field>u_video_audio</field>
+        <global>true</global>
+        <messages/>
+        <name>Redirect - VIDEO Language tables</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+if(g_lang == 'en'){ 
+  g_form.setDisplay('u_video_audio', true); 
+  g_form.setDisplay('u_video_audio_es', false);
+  g_form.setDisplay('u_video_subtitles', true); 
+  g_form.setDisplay('u_video_subtitulos', false);
+		
+	}
+	
+else if(g_lang == 'es'){
+  g_form.setDisplay('u_video_audio', false); 
+  g_form.setDisplay('u_video_audio_es', true);
+  g_form.setDisplay('u_video_subtitles', false); 
+  g_form.setDisplay('u_video_subtitulos', true);
+		
+	}	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-22 03:20:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>716ccb880f4a4700f06f4e9ce1050e2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Redirect - VIDEO Language tables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_script_client_716ccb880f4a4700f06f4e9ce1050e2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-22 03:20:19</sys_updated_on>
+        <table>x_132308_mediabase_videos</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

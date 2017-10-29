@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_book_classification" table="x_132308_mediabase_books" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ficción</label>
+            <language>es</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 09:56:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86b5fe900f3d0300f06f4e9ce1050e18</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 11:03:20</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fiction</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 08:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da582ad80ff90300f06f4e9ce1050e5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:57:44</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No ficción</label>
+            <language>es</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 09:58:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3016f2900f3d0300f06f4e9ce1050e41</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 11:03:47</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_classification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nonfiction</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 08:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52582ad80ff90300f06f4e9ce1050e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:57:44</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_book_classification</element>
+            <name>x_132308_mediabase_books</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 08:57:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1e582ad80ff90300f06f4e9ce1050e60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_book_classification</sys_name>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_choice_x_132308_mediabase_books_u_book_classification</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 08:57:44</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

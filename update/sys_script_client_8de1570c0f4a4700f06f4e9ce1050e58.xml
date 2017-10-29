@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Calculate the Difference field by subtracting the Cover price field from the Estimated price field. - en&#13;
+Calcule el campo Diferencia restando el campo Precio de Portada  Comics del campo Precio estimado. - es</description>
+        <field>u_comics_estimated_value</field>
+        <global>true</global>
+        <messages/>
+        <name>Comics - calculate Difference field</name>
+        <order/>
+        <script><![CDATA[   function onChange(control, oldValue, newValue, isLoading, isTemplate) {  
+       if (isLoading || newValue == '') {  
+          return;  
+       }  
+      
+      
+  //Sets values for  u_comics_estimated_value and u_comics_cover_price - en
+ // Establece valores para u_comics_estimated_value y u_comics_cover_price - es
+ //Create a variable newtotal and subtract u_comics_cover_price from u_comics_estimated_value - en
+ // Crea una variable newtotal y resta u_comics_cover_price de u_comics_estimated_value - es
+ //Display the varible  newtotal - en
+ // Mostrar la variable newtotal - es
+      var est = (g_form.getValue('u_comics_estimated_value'));  
+      var cov = (g_form.getValue('u_comics_cover_price'));  
+      
+      
+      var newtotal = est - cov;  
+      
+      
+      g_form.setValue('u_comics_difference', newtotal);  
+         
+    
+ }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-22 03:40:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8de1570c0f4a4700f06f4e9ce1050e58</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Comics - calculate Difference field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_script_client_8de1570c0f4a4700f06f4e9ce1050e58</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-22 04:09:07</sys_updated_on>
+        <table>x_132308_mediabase_comics</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

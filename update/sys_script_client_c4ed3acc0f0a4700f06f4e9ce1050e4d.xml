@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Display u_music_genre or u_music_genero based on session language - en&#13;
+Mostrar u_music_genre o u_music_genero based porque en el idioma de la sesión - es</description>
+        <field>u_music_album</field>
+        <global>true</global>
+        <messages/>
+        <name>Redirect - MUSIC Genre tables</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+if(g_lang == 'en'){ 
+  g_form.setDisplay('u_music_genre', true); 
+  g_form.setDisplay('u_music_genero', false);
+		
+	}
+	
+else if(g_lang == 'es'){
+  g_form.setDisplay('u_music_genre', false); 
+  g_form.setDisplay('u_music_genero', true);
+		
+	}	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-22 02:13:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4ed3acc0f0a4700f06f4e9ce1050e4d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Redirect - MUSIC Genre tables</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_script_client_c4ed3acc0f0a4700f06f4e9ce1050e4d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-22 02:45:43</sys_updated_on>
+        <table>x_132308_mediabase_music</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

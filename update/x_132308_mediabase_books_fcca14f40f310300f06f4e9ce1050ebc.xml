@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_132308_mediabase_books">
+    <x_132308_mediabase_books action="INSERT_OR_UPDATE">
+        <number>BOOK00001</number>
+        <sys_class_name>x_132308_mediabase_books</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-11 11:56:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fcca14f40f310300f06f4e9ce1050ebc</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>x_132308_mediabase_books_fcca14f40f310300f06f4e9ce1050ebc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-17 14:33:04</sys_updated_on>
+        <u_book_audio_file_extension/>
+        <u_book_author>Geroge R. R. Martin</u_book_author>
+        <u_book_book_cover><![CDATA[<p><img style="align: baseline;" title="" src="sys_attachment.do?sys_id&#61;e1a6193e0f788300f06f4e9ce1050ecc" alt="" align="baseline" border="" hspace="" vspace="" /><img style="align: baseline;" title="" src="sys_attachment.do?sys_id&#61;742b58f40f310300f06f4e9ce1050eb4" alt="" align="baseline" border="" hspace="" vspace="" /></p>]]></u_book_book_cover>
+        <u_book_classification>0</u_book_classification>
+        <u_book_comments>Gift from Mike Mooney -</u_book_comments>
+        <u_book_cover_price>30</u_book_cover_price>
+        <u_book_difference/>
+        <u_book_editor/>
+        <u_book_estimated_value/>
+        <u_book_file_ext_other/>
+        <u_book_file_extension/>
+        <u_book_first_edition>true</u_book_first_edition>
+        <u_book_genre display_value="Fantasy">b71a5b4c0ff10300f06f4e9ce1050e39</u_book_genre>
+        <u_book_idioma/>
+        <u_book_illustrations>Gary Gianni</u_book_illustrations>
+        <u_book_isbn_10/>
+        <u_book_isbn_13/>
+        <u_book_isbn_8/>
+        <u_book_language/>
+        <u_book_other_audio_ext/>
+        <u_book_prequel>true</u_book_prequel>
+        <u_book_publisher>Bantam Books</u_book_publisher>
+        <u_book_publisher_country/>
+        <u_book_purchase_currency display_value="USD">5a6ee69c0ff90300f06f4e9ce1050e04</u_book_purchase_currency>
+        <u_book_sequel>false</u_book_sequel>
+        <u_book_series>Canción de hielo y fuego</u_book_series>
+        <u_book_show_series>false</u_book_show_series>
+        <u_book_synopsis/>
+        <u_book_title>A Knight of the Seven Kingdoms</u_book_title>
+        <u_book_topic/>
+        <u_book_type_of_book>2</u_book_type_of_book>
+        <u_book_upc/>
+        <u_book_year_printed/>
+        <u_book_year_released/>
+    </x_132308_mediabase_books>
+</record_update>

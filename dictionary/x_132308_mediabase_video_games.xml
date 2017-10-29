@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true,live_feed=true" extends="sys_metadata" label="Video Games" max_length="40" name="x_132308_mediabase_video_games" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Record no." max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Emulator?" max_length="40" name="u_video_emulator" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Emulator" max_length="40" name="u_video_emulator_name" type="string"/>
+        <element label="Comments" max_length="512" name="u_video_games_comments" type="translated_text"/>
+        <element attributes="ref_ac_display_value=true" label="Game console" max_length="32" name="u_video_games_console_name" reference="x_132308_mediabase_video_game_console" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Console type" max_length="40" name="u_video_games_cons_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Episode no." max_length="5" name="u_video_games_episode_no" type="string"/>
+        <element label="Episode title" max_length="40" name="u_video_games_episode_title" type="translated_text"/>
+        <element label="File Extension" max_length="32" name="u_video_games_file_extension" reference="x_132308_mediabase_video_game_file_extensions" type="reference"/>
+        <element label="Género" max_length="32" name="u_video_games_genero" reference="x_132308_mediabase_genero_de_videojuego" type="reference"/>
+        <element attributes="ref_ac_display_value" label="Genre" max_length="32" name="u_video_games_genre" reference="x_132308_mediabase_video_game_genre" type="reference"/>
+        <element default="780fc58e0ff90300f06f4e9ce1050e7f" label="Idioma" max_length="32" name="u_video_games_idioma" reference="x_132308_mediabase_idiomas" type="reference"/>
+        <element attributes="ref_ac_display_value=true" default="687b810e0ff90300f06f4e9ce1050ec1" label="Language" max_length="32" name="u_video_games_language" reference="x_132308_mediabase_languages" type="reference"/>
+        <element label="Multiplayer?" max_length="40" name="u_video_games_multiplayer" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Music by" max_length="40" name="u_video_games_music_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of players" max_length="40" name="u_video_games_no_players" type="choice">
+            <choice>
+                <element label="2 jugadores" language="es" sequence="0" value="2p"/>
+                <element label="2 Players" sequence="0" value="2p"/>
+                <element label="3 jugadores" language="es" sequence="1" value="3p"/>
+                <element label="3 Players" sequence="1" value="3p"/>
+                <element label="4 jugadores" language="es" sequence="2" value="4p"/>
+                <element label="4 Players" sequence="2" value="4p"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" hint="Operating System (OS) of game" label="OS" max_length="40" name="u_video_games_os" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other fie ext." max_length="40" name="u_video_games_other_file_ext" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other genre" max_length="40" name="u_video_games_other_genre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other console" max_length="40" name="u_video_games_other_type_con" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Producer" max_length="40" name="u_video_games_producer" type="string"/>
+        <element label="Game promo" max_length="65536" name="u_video_games_promo" type="translated_html"/>
+        <element attributes="edge_encryption_enabled=true" hint="Age rating for video game content" label="Rated" max_length="40" name="u_video_games_rated" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Region" max_length="40" name="u_video_games_region" type="string"/>
+        <element label="Region specific?" max_length="40" name="u_video_games_region_specific" type="boolean"/>
+        <element label="Series?" max_length="40" name="u_video_games_series" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Series" max_length="40" name="u_video_games_series_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Single player?" max_length="40" name="u_video_games_single_player" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Storage location" max_length="40" name="u_video_games_storage_location" type="string"/>
+        <element label="Synopsis" max_length="65536" name="u_video_games_synopsis" type="translated_html"/>
+        <element label="Console?" max_length="40" name="u_video_games_type_con" type="boolean"/>
+        <element label="PC?" max_length="40" name="u_video_games_type_pc" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_video_games_upc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year released" max_length="40" name="u_video_games_year_released" type="string"/>
+        <element attributes="ref_ac_display_value" label="Developer" max_length="32" name="u_video_game_developer" reference="x_132308_mediabase_video_game_developer" type="reference"/>
+        <element label="Title" max_length="40" name="u_video_game_title" type="translated_text"/>
+        <index name="index">
+            <element name="u_video_game_developer"/>
+        </index>
+        <index name="index2">
+            <element name="u_video_games_console_name"/>
+        </index>
+        <index name="index3">
+            <element name="u_video_games_file_extension"/>
+        </index>
+        <index name="index4">
+            <element name="u_video_games_language"/>
+        </index>
+        <index name="index5">
+            <element name="u_video_games_genero"/>
+        </index>
+        <index name="index6">
+            <element name="u_video_games_idioma"/>
+        </index>
+        <index name="index7">
+            <element name="u_video_games_genre"/>
+        </index>
+    </element>
+</database>

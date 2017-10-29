@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_video_game_developer" label="Desarrollador de videojuego" language="es" table="x_132308_mediabase_video_games">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_video_game_developer</element>
+            <help/>
+            <hint/>
+            <label>Desarrollador de videojuego</label>
+            <language>es</language>
+            <name>x_132308_mediabase_video_games</name>
+            <plural>Desarrolladores de videojuegos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-15 17:33:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>243e8e820fbd0300f06f4e9ce1050e60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Desarrollador de videojuego</sys_name>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_documentation_x_132308_mediabase_video_games_u_video_game_developer_es</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-15 17:33:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

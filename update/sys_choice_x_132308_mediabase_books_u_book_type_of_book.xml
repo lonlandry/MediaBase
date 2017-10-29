@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_book_type_of_book" table="x_132308_mediabase_books" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint>Utilice esta selección para libros de audio.</hint>
+            <inactive>false</inactive>
+            <label>Audio</label>
+            <language>es</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 22:02:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>569bdda80ff14300f06f4e9ce1050e4f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 22:02:29</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint>Use this section for adio books.</hint>
+            <inactive>false</inactive>
+            <label>Audio</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 17:41:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d320e4240f314300f06f4e9ce1050e82</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 21:59:01</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E-Book</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 17:41:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b20e4240f314300f06f4e9ce1050e83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 17:41:16</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E-libro</label>
+            <language>es</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 08:57:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5a582ad80ff90300f06f4e9ce1050e54</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 22:47:34</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardcover</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 17:41:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f20e4240f314300f06f4e9ce1050e84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 17:41:16</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Libro de tapa dura</label>
+            <language>es</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 10:11:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4919fad40f3d0300f06f4e9ce1050ee8</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 22:36:33</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magazine</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 17:41:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df20e4240f314300f06f4e9ce1050e85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 17:41:16</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Revista</label>
+            <language>es</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 10:12:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f459fad40f3d0300f06f4e9ce1050efe</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 22:42:34</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>libro de tapa blanda</label>
+            <language>es</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 10:14:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b299f6d40f3d0300f06f4e9ce1050e0b</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 22:43:09</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_type_of_book</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Paperback</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 17:41:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9320e4240f314300f06f4e9ce1050e87</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 22:42:55</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_book_type_of_book</element>
+            <name>x_132308_mediabase_books</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 17:41:16</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1720e4240f314300f06f4e9ce1050e83</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_book_type_of_book</sys_name>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_choice_x_132308_mediabase_books_u_book_type_of_book</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 17:41:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

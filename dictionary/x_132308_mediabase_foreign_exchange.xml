@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Foreign Exchange" max_length="40" name="x_132308_mediabase_foreign_exchange" type="collection">
+        <element choice="3" label="Foreign Exchange" max_length="40" name="u_foreign_exchange" type="string">
+            <choice>
+                <element hint="Foreign Exchange" label="Foreign Exchange" sequence="0" value="fe"/>
+            </choice>
+        </element>
+    </element>
+</database>

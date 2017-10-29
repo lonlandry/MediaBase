@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Comics" section_id="ae9bfcb50f710300f06f4e9ce1050e4f" sys_domain="global" table="x_132308_mediabase_comics" version="3" view="Simple">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>7a9bfcb50f710300f06f4e9ce1050e55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_caption</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>fa9bfcb50f710300f06f4e9ce1050e55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_issue_no</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>7e9bfcb50f710300f06f4e9ce1050e55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cover_month</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>fe9bfcb50f710300f06f4e9ce1050e55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_year</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>729bfcb50f710300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_trade_paperback</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>f29bfcb50f710300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_stories</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>769bfcb50f710300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>f69bfcb50f710300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_cover_image</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>7a9bfcb50f710300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_cover_price</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>fa9bfcb50f710300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_record_currency</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>7e9bfcb50f710300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_condition</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>fe9bfcb50f710300f06f4e9ce1050e56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_comics_comments</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_id>729bfcb50f710300f06f4e9ce1050e57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Comics" display_value="Comics" name="x_132308_mediabase_comics" sys_domain="global" view="ee9bfcb50f710300f06f4e9ce1050e4c">ae9bfcb50f710300f06f4e9ce1050e4f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Comics</caption>
+            <header>false</header>
+            <name>x_132308_mediabase_comics</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:53:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae9bfcb50f710300f06f4e9ce1050e4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Comics</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_ui_section_ae9bfcb50f710300f06f4e9ce1050e4f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-14 16:53:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Simple" name="Simple">ee9bfcb50f710300f06f4e9ce1050e4c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

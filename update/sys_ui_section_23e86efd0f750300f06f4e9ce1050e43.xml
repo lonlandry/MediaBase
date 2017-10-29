@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="23e86efd0f750300f06f4e9ce1050e43" sys_domain="global" table="x_132308_mediabase_video_games" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_game_title</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e16f1d660f8a4300f06f4e9ce1050ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_music_by</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>656f1d660f8a4300f06f4e9ce1050ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_producer</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e56f1d660f8a4300f06f4e9ce1050ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_rated</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>696f1d660f8a4300f06f4e9ce1050ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_series</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e96f1d660f8a4300f06f4e9ce1050ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_series_name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>6d6f1d660f8a4300f06f4e9ce1050ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_episode_no</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>ed6f1d660f8a4300f06f4e9ce1050ebb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_episode_title</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>616f1d660f8a4300f06f4e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_genre</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e16f1d660f8a4300f06f4e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_genero</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>656f1d660f8a4300f06f4e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_other_genre</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e56f1d660f8a4300f06f4e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_year_released</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>696f1d660f8a4300f06f4e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_language</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e96f1d660f8a4300f06f4e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_idioma</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>6d6f1d660f8a4300f06f4e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_region_specific</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>ed6f1d660f8a4300f06f4e9ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_region</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>616f1d660f8a4300f06f4e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_game_developer</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e16f1d660f8a4300f06f4e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_synopsis</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>656f1d660f8a4300f06f4e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e56f1d660f8a4300f06f4e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>696f1d660f8a4300f06f4e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_promo</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e96f1d660f8a4300f06f4e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_single_player</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>6d6f1d660f8a4300f06f4e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_multiplayer</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>ed6f1d660f8a4300f06f4e9ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_no_players</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>616f1d660f8a4300f06f4e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_type_con</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e16f1d660f8a4300f06f4e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_console_name</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>656f1d660f8a4300f06f4e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_other_type_con</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e56f1d660f8a4300f06f4e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_emulator</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>696f1d660f8a4300f06f4e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_emulator_name</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e96f1d660f8a4300f06f4e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_type_pc</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>6d6f1d660f8a4300f06f4e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_os</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>ed6f1d660f8a4300f06f4e9ce1050ebe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_file_extension</element>
+            <position>31</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>616f1d660f8a4300f06f4e9ce1050ebf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_other_file_ext</element>
+            <position>32</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e16f1d660f8a4300f06f4e9ce1050ebf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_storage_location</element>
+            <position>33</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>656f1d660f8a4300f06f4e9ce1050ebf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_upc</element>
+            <position>34</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>e56f1d660f8a4300f06f4e9ce1050ebf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_video_games_comments</element>
+            <position>35</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-29 13:41:02</sys_created_on>
+            <sys_id>696f1d660f8a4300f06f4e9ce1050ebf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_132308_mediabase_video_games" sys_domain="global" view="Default view">23e86efd0f750300f06f4e9ce1050e43</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-29 13:41:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_132308_mediabase_video_games</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>abraham.lincoln</sys_created_by>
+            <sys_created_on>2017-10-15 00:51:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23e86efd0f750300f06f4e9ce1050e43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_132308_mediabase_video_games</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_ui_section_23e86efd0f750300f06f4e9ce1050e43</sys_update_name>
+            <sys_updated_by>abraham.lincoln</sys_updated_by>
+            <sys_updated_on>2017-10-15 00:51:09</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_book_audio_file_extension" table="x_132308_mediabase_books" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_audio_file_extension</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.cda</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-25 13:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d8bb85d0f420300f06f4e9ce1050ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-25 13:51:53</sys_updated_on>
+            <value>cda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_audio_file_extension</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.flac</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-25 13:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e18bb85d0f420300f06f4e9ce1050eea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-25 13:51:53</sys_updated_on>
+            <value>flac</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_audio_file_extension</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.mp3</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-25 13:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a58bb85d0f420300f06f4e9ce1050eeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-25 13:51:53</sys_updated_on>
+            <value>mp3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_audio_file_extension</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.ogg</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-25 13:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>698bb85d0f420300f06f4e9ce1050eec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-25 13:51:53</sys_updated_on>
+            <value>ogg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_audio_file_extension</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>.wav</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-25 13:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d8bb85d0f420300f06f4e9ce1050eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-25 13:51:53</sys_updated_on>
+            <value>wav</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_audio_file_extension</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>other</label>
+            <language>en</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-25 13:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed8bb85d0f420300f06f4e9ce1050eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-25 13:51:53</sys_updated_on>
+            <value>oth</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_book_audio_file_extension</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>otra</label>
+            <language>es</language>
+            <name>x_132308_mediabase_books</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-27 23:23:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>285151c60f860300f06f4e9ce1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-27 23:23:29</sys_updated_on>
+            <value>oth</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_book_audio_file_extension</element>
+            <name>x_132308_mediabase_books</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-25 13:51:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ad8bb85d0f420300f06f4e9ce1050ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_book_audio_file_extension</sys_name>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_choice_x_132308_mediabase_books_u_book_audio_file_extension</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-25 13:51:53</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

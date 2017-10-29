@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Prueba de números" max_length="40" name="x_132308_mediabase_numbers_test" type="collection">
+        <element attributes="time_zone_field" hint="Uno" label="one" max_length="40" name="u_one" type="string"/>
+        <element label="three" max_length="40" name="u_three" type="string"/>
+        <element label="two" max_length="40" name="u_two" type="string"/>
+    </element>
+</database>

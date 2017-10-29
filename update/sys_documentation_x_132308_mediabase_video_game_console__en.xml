@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Video Game Console" language="en" table="x_132308_mediabase_video_game_console">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Video Game Console</label>
+            <language>en</language>
+            <name>x_132308_mediabase_video_game_console</name>
+            <plural>Video Game Consoles</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-15 15:25:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f101f5420f7d0300f06f4e9ce1050e6d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Video Game Console</sys_name>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_documentation_x_132308_mediabase_video_game_console__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-15 15:25:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

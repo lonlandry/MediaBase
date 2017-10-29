@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="all_tables.text_index_translations=true,live_feed=true" label="Equipo" max_length="40" name="x_132308_mediabase_equipment" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Record no." max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Cor" max_length="32" name="u_cores0_cor" reference="x_132308_mediabase_cores0" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="cr" label="Return type" max_length="40" name="u_eqipment_return_type" type="string">
+            <choice>
+                <element label="Cash" sequence="0" value="ca"/>
+                <element label="Efectivo" language="es" sequence="0" value="ca"/>
+                <element label="Credit" sequence="1" value="cr"/>
+                <element label="Crédito" language="es" sequence="1" value="cr"/>
+            </choice>
+        </element>
+        <element label="Color" max_length="32" name="u_eqpt_colores" reference="x_132308_mediabase_colores" type="reference"/>
+        <element label="Color" max_length="32" name="u_eqpt_colors" reference="x_132308_mediabase_color" type="reference"/>
+        <element attributes="ref_ac_display_value=true" label="Current condition" max_length="32" name="u_equipment_condition" reference="x_132308_mediabase_condition" type="reference"/>
+        <element attributes="ref_ac_display_value=true" label="Condition at purchase" max_length="32" name="u_equipment_condition_purch" reference="x_132308_mediabase_condition" type="reference"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Contact info." max_length="65536" name="u_equipment_contact_info" type="wiki_text"/>
+        <element label="Cost" max_length="15" name="u_equipment_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Coverage type" max_length="40" name="u_equipment_coverage_type" type="string"/>
+        <element default="5a6ee69c0ff90300f06f4e9ce1050e04" label="Currency" max_length="32" name="u_equipment_currency" reference="x_132308_mediabase_currencies" type="reference"/>
+        <element label="Date of return" max_length="40" name="u_equipment_date_of_return" type="glide_date"/>
+        <element label="Date paid" max_length="40" name="u_equipment_date_paid" type="glide_date"/>
+        <element label="Depreciated_cost" max_length="15" name="u_equipment_depreciated_cost" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="40" name="u_equipment_description" type="translated_text"/>
+        <element label="Extension begin date" max_length="40" name="u_equipment_ext_begin_date" type="glide_date"/>
+        <element label="Extension end date" max_length="40" name="u_equipment_ext_end_date" type="glide_date"/>
+        <element label="Extended warranty?" max_length="40" name="u_equipment_ext_warranty" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Forward Warranty" max_length="40" name="u_equipment_forward_warr" type="string"/>
+        <element label="Image" max_length="65536" name="u_equipment_image" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Inherit warranty" max_length="40" name="u_equipment_inherit_warr" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Make" max_length="40" name="u_equipment_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manufacturer name" max_length="40" name="u_equipment_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Master warranty" max_length="40" name="u_equipment_master_warranty" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_equipment_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true,ref_auto_completer=true" choice="1" label="Method of service" max_length="40" name="u_equipment_mos" type="string">
+            <choice>
+                <element label="En el sitio" language="es" sequence="1" value="1"/>
+                <element label="On-Site" sequence="1" value="1"/>
+                <element label="Phone Support" sequence="2" value="2"/>
+                <element label="Soporte telefónico" language="es" sequence="2" value="2"/>
+                <element label="Enviado al cliente" language="es" sequence="3" value="3"/>
+                <element label="Ship to Customer" sequence="3" value="3"/>
+                <element label="Enviar al vendedor" language="es" sequence="4" value="4"/>
+                <element label="Ship to Vendor" sequence="4" value="4"/>
+                <element label="Asistencia Virtual" language="es" sequence="5" value="5"/>
+                <element label="Virtual Assistance" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_equipment_name" type="string"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Notes" max_length="65536" name="u_equipment_notes" type="wiki_text"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Plan benefits" max_length="40" name="u_equipment_plan_benefits" type="string">
+            <choice>
+                <element label="Accidental Breakage" sequence="1" value="1"/>
+                <element label="Rotura accidental" language="es" sequence="1" value="1"/>
+                <element label="Broken / Damaged Screen" sequence="2" value="2"/>
+                <element label="Pantalla rota / dañada" language="es" sequence="2" value="2"/>
+                <element label="Ambiental" language="es" sequence="3" value="3"/>
+                <element label="Environmental" sequence="3" value="3"/>
+                <element label="No Lemon Policy" sequence="4" value="4"/>
+                <element hint="(sólo para EE.UU.)" label="Política no-limón" language="es" sequence="4" value="4"/>
+                <element label="Power Surge" sequence="5" value="5"/>
+                <element label="Sobrecarga de energía" language="es" sequence="5" value="5"/>
+                <element label="Priority Service" sequence="6" value="6"/>
+                <element label="Servicio Prioritario" language="es" sequence="6" value="6"/>
+                <element label="Soporte técnico" language="es" sequence="7" value="7"/>
+                <element label="Technical Support" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element label="Profit" max_length="15" name="u_equipment_profit" type="decimal"/>
+        <element label="Purchase date" max_length="40" name="u_equipment_purchase_date" type="glide_date"/>
+        <element label="Refurbished" max_length="40" name="u_equipment_refurbished" type="boolean"/>
+        <element attributes="ref_ac_display_value" label="Screen resolution" max_length="32" name="u_equipment_resolution" reference="x_132308_mediabase_screen_resolution" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other resolution" max_length="40" name="u_equipment_resolution_other" type="string"/>
+        <element label="Comments" max_length="65536" name="u_equipment_return_comment" type="translated_html"/>
+        <element label="Shipping cost?" max_length="40" name="u_equipment_return_ship_cost" type="boolean"/>
+        <element label="RMA required?" max_length="40" name="u_equipment_rma_required" type="boolean"/>
+        <element label="Sale price" max_length="15" name="u_equipment_sale_price" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Serial no." max_length="40" name="u_equipment_serial_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Service plan no." max_length="40" name="u_equipment_service_plan" type="string"/>
+        <element label="Begin date" max_length="40" name="u_equipment_serv_begin" type="glide_date"/>
+        <element label="End date" max_length="40" name="u_equipment_serv_end" type="glide_date"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Notes" max_length="65536" name="u_equipment_serv_notes" type="wiki_text"/>
+        <element label="Shipping cost" max_length="15" name="u_equipment_ship_cost_value" type="decimal"/>
+        <element label="Sold?" max_length="40" name="u_equipment_sold" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Support phone no." max_length="40" name="u_equipment_support_phone_no" type="string"/>
+        <element attributes="ref_ac_display_value=true" label="Equipment type" max_length="32" name="u_equipment_type" reference="x_132308_mediabase_equipment_type" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other type" max_length="40" name="u_equipment_type_other" type="string"/>
+        <element label="Value" max_length="15" name="u_equipment_value" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="u_equipment_vendor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Warranty type" max_length="40" name="u_equipment_warranty_type" type="string">
+            <choice>
+                <element label="Express Warranty" sequence="0" value="ew"/>
+                <element label="Garantía expresa" language="es" sequence="0" value="ew"/>
+                <element label="Garantía implícita" language="es" sequence="1" value="iw"/>
+                <element label="Implied Warranty" sequence="1" value="iw"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_equipment_warr_class" type="string">
+            <choice>
+                <element label="Cliente" language="es" sequence="0" value="c"/>
+                <element label="Customer" sequence="0" value="c"/>
+                <element label="Fabricante" language="es" sequence="1" value="m"/>
+                <element label="Manufacturer" sequence="1" value="m"/>
+                <element label="Vendedor" language="es" sequence="2" value="v"/>
+                <element label="Vendor" sequence="2" value="v"/>
+            </choice>
+        </element>
+        <element label="Begin date" max_length="40" name="u_equipment_w_begin_date" type="glide_date"/>
+        <element label="End date" max_length="40" name="u_equipment_w_end_date" type="glide_date"/>
+        <element hint="La fecha en que el vendedor o el servicio recibió el artículo" label="Date received" max_length="40" name="u_returns_date_received" type="glide_date"/>
+        <element label="Return amount" max_length="15" name="u_return_amount" type="decimal"/>
+        <index name="index">
+            <element name="u_equipment_type"/>
+        </index>
+        <index name="index2">
+            <element name="u_equipment_currency"/>
+        </index>
+        <index name="index3">
+            <element name="u_cores0_cor"/>
+        </index>
+        <index name="index4">
+            <element name="u_equipment_resolution"/>
+        </index>
+        <index name="index5">
+            <element name="u_equipment_condition_purch"/>
+        </index>
+        <index name="index6">
+            <element name="u_equipment_condition"/>
+        </index>
+        <index name="index7">
+            <element name="u_eqpt_colores"/>
+        </index>
+        <index name="index8">
+            <element name="u_eqpt_colors"/>
+        </index>
+    </element>
+</database>

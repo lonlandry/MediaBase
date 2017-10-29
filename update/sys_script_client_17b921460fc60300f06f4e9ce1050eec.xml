@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Equipment - Clear Profit field if Sales price field is empty</description>
+        <field>u_equipment_serv_begin</field>
+        <global>true</global>
+        <messages/>
+        <name>Equipment - Clear Profit field if Sales </name>
+        <order/>
+        <script><![CDATA[function onLoad(control) {  
+       if ('u_equipment_sale_price' <= 0 ) {  
+        
+       }  
+      
+ 
+     g_form.clearValue('u_equipment_profit');    
+        
+   }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-28 01:19:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17b921460fc60300f06f4e9ce1050eec</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Equipment - Clear Profit field if Sales </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_script_client_17b921460fc60300f06f4e9ce1050eec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-28 01:29:31</sys_updated_on>
+        <table>x_132308_mediabase_equipment</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

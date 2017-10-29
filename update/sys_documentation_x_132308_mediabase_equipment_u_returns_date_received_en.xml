@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_returns_date_received" label="Date received" language="en" table="x_132308_mediabase_equipment">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_returns_date_received</element>
+            <help/>
+            <hint>The date the seller or service received the item</hint>
+            <label>Date received</label>
+            <language>en</language>
+            <name>x_132308_mediabase_equipment</name>
+            <plural>Date received</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:41:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6fe874750f710300f06f4e9ce1050e66</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Date received</sys_name>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_documentation_x_132308_mediabase_equipment_u_returns_date_received_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-15 00:34:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

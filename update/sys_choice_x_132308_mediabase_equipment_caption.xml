@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="caption" table="x_132308_mediabase_equipment" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>caption</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Devoluciones de productos</label>
+            <language>es</language>
+            <name>x_132308_mediabase_equipment</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 20:38:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c58cdac0fb14300f06f4e9ce1050e7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 20:38:02</sys_updated_on>
+            <value>Returns</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>caption</element>
+            <name>x_132308_mediabase_equipment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 20:38:02</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a4a805ac0fb14300f06f4e9ce1050ea6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>caption</sys_name>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_choice_x_132308_mediabase_equipment_caption</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-10 20:38:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

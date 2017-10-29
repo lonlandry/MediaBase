@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="all_tables.text_index_translations=true,live_feed=true" label="Música" max_length="40" name="x_132308_mediabase_music" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Record no." max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Album" max_length="128" name="u_music_album" type="string"/>
+        <element label="Cover" max_length="65536" name="u_music_album_cover" type="translated_html"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Album info." max_length="65536" name="u_music_album_info" type="wiki_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Artist / Group" max_length="40" name="u_music_artist_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="256" name="u_music_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Composer" max_length="40" name="u_music_composer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Disc no." max_length="4" name="u_music_disc_no" type="string"/>
+        <element label="Duration (min.)" max_length="15" name="u_music_duration_min" type="decimal"/>
+        <element label="Duration (sec.)" max_length="15" name="u_music_duration_sec" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="File extension" max_length="40" name="u_music_file_ext" type="string">
+            <choice>
+                <element label=".cda" sequence="0" value=".cda"/>
+                <element label=".flac" sequence="1" value="flac"/>
+                <element label=".mp3" sequence="2" value="mp3"/>
+                <element label=".ogg" sequence="3" value="ogg"/>
+                <element label=".wav" sequence="4" value="wav"/>
+                <element label="other" sequence="5" value="oth"/>
+                <element label="otra" language="es" sequence="5" value="oth"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Format" max_length="40" name="u_music_format" type="string">
+            <choice>
+                <element label="casete" language="es" sequence="0" value="ct"/>
+                <element label="Cassette Tape" sequence="0" value="ct"/>
+                <element label="CD" sequence="1" value="cd"/>
+                <element label="Digital" sequence="2" value="dg"/>
+                <element label="DVD" sequence="3" value="dvd"/>
+                <element label="Vinilo" language="es" sequence="4" value="vnl"/>
+                <element label="Vinyl" sequence="4" value="vnl"/>
+            </choice>
+        </element>
+        <element label="Género" max_length="32" name="u_music_genero" reference="x_132308_mediabase_genero_de_la_musica" type="reference"/>
+        <element attributes="ref_ac_display_value" label="Genre" max_length="32" name="u_music_genre" reference="x_132308_mediabase_music_genre" type="reference"/>
+        <element default="780fc58e0ff90300f06f4e9ce1050e7f" label="Idioma" max_length="32" name="u_music_idioma" reference="x_132308_mediabase_idiomas" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="ISRC" max_length="40" name="u_music_isrc" type="string"/>
+        <element default="687b810e0ff90300f06f4e9ce1050ec1" label="Language" max_length="32" name="u_music_language" reference="x_132308_mediabase_languages" type="reference"/>
+        <element label="Lyrics?" max_length="40" name="u_music_lyrics" type="boolean"/>
+        <element label="Lyrics" max_length="3200" name="u_music_lyrics_content" type="translated_html"/>
+        <element attributes="edge_encryption_enabled=true" label="Other audio file ext." max_length="40" name="u_music_other_audio_file_ext" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other genre" max_length="40" name="u_music_other_genre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Record label" max_length="40" name="u_music_record_label" type="string"/>
+        <element label="Single?" max_length="40" name="u_music_single" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Storage Location" max_length="40" name="u_music_storage_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Song title" max_length="128" name="u_music_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_music_upc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Written by" max_length="64" name="u_music_written_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year Released" max_length="4" name="u_music_year_released" reference="x_132308_mediabase_years" type="reference"/>
+        <index name="index">
+            <element name="u_music_idioma"/>
+        </index>
+        <index name="index2">
+            <element name="u_music_genre"/>
+        </index>
+        <index name="index3">
+            <element name="u_music_genero"/>
+        </index>
+        <index name="index4">
+            <element name="u_music_language"/>
+        </index>
+    </element>
+</database>

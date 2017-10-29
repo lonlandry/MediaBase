@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_equipment_ext_end_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-23 02:26:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>716b08e40f468700f06f4e9ce1050ecc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_equipment_ext_end_date</sys_name>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_ui_policy_action_716b08e40f468700f06f4e9ce1050ecc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-23 02:26:27</sys_updated_on>
+        <table>x_132308_mediabase_equipment</table>
+        <ui_policy display_value="Equipment - Hide Extended Warranty options if Extended Warranty? is not selected.">72ba4ce40f468700f06f4e9ce1050e28</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

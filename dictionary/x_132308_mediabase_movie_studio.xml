@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="all_tables.text_index_translations=true,live_feed=true" label="Compañía de estudio de cine" max_length="40" name="x_132308_mediabase_movie_studio" type="collection">
+        <element label="Record no." max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element display="true" label="Studio" max_length="40" name="u_movie_studio_studio_name" type="translated_text"/>
+    </element>
+</database>

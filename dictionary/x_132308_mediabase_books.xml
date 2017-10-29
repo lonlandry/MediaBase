@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true,live_feed=true" extends="sys_metadata" label="Book" max_length="40" name="x_132308_mediabase_books" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Record no." mandatory="true" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Audio file ext." max_length="40" name="u_book_audio_file_extension" type="string">
+            <choice>
+                <element label=".cda" sequence="0" value="cda"/>
+                <element label=".flac" sequence="1" value="flac"/>
+                <element label=".mp3" sequence="2" value="mp3"/>
+                <element label=".ogg" sequence="3" value="ogg"/>
+                <element label=".wav" sequence="4" value="wav"/>
+                <element label="other" sequence="5" value="oth"/>
+                <element label="otra" language="es" sequence="5" value="oth"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Author" max_length="40" name="u_book_author" type="string"/>
+        <element label="Book cover" max_length="65536" name="u_book_book_cover" type="translated_html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Classification" max_length="40" name="u_book_classification" type="string">
+            <choice>
+                <element label="Ficción" language="es" sequence="0" value="0"/>
+                <element label="Fiction" sequence="0" value="0"/>
+                <element label="No ficción" language="es" sequence="1" value="1"/>
+                <element label="Nonfiction" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="u_book_comments" type="string"/>
+        <element label="Cover price" max_length="15" name="u_book_cover_price" type="decimal"/>
+        <element label="Difference" max_length="15" name="u_book_difference" read_only="true" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Editor" max_length="40" name="u_book_editor" type="string"/>
+        <element label="Estimated value" max_length="15" name="u_book_estimated_value" type="decimal"/>
+        <element attributes="ref_ac_display_value=true" label="File extension" max_length="32" name="u_book_file_extension" reference="x_132308_mediabase_e_book_file_extensions" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other file extension" max_length="40" name="u_book_file_ext_other" type="string"/>
+        <element label="First edition?" max_length="40" name="u_book_first_edition" type="boolean"/>
+        <element attributes="ref_ac_display_value" label="Genre" max_length="32" name="u_book_genre" reference="x_132308_mediabase_book_genre" type="reference"/>
+        <element default="780fc58e0ff90300f06f4e9ce1050e7f" label="Idioma" max_length="32" name="u_book_idioma" reference="x_132308_mediabase_idiomas" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Illustrations" max_length="40" name="u_book_illustrations" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-10" max_length="14" name="u_book_isbn_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-13" max_length="17" name="u_book_isbn_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-8" max_length="40" name="u_book_isbn_8" type="string"/>
+        <element default="687b810e0ff90300f06f4e9ce1050ec1" label="Language" max_length="32" name="u_book_language" reference="x_132308_mediabase_languages" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other audio ext." max_length="40" name="u_book_other_audio_ext" type="string"/>
+        <element label="Prequel" max_length="40" name="u_book_prequel" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Publisher" max_length="40" name="u_book_publisher" type="string"/>
+        <element attributes="ref_ac_columns_search=false,ref_ac_display_value=true" default="182130670fe1c300f06f4e9ce1050eeb" label="Publisher country" max_length="32" name="u_book_publisher_country" reference="x_132308_mediabase_countries" type="reference"/>
+        <element attributes="ref_ac_display_value" default="5a6ee69c0ff90300f06f4e9ce1050e04" label="Purchase currency" max_length="32" name="u_book_purchase_currency" reference="x_132308_mediabase_currencies" type="reference"/>
+        <element label="Sequel" max_length="40" name="u_book_sequel" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Series" max_length="40" name="u_book_series" type="string"/>
+        <element hint="Bring back fields for series" label="Show series?" max_length="40" name="u_book_show_series" type="boolean"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Synopsis" max_length="65536" name="u_book_synopsis" type="wiki_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="265" name="u_book_title" type="translated_text"/>
+        <element label="Topic" max_length="32" name="u_book_topic" reference="x_132308_mediabase_book_topic" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,ref_auto_completer=true" choice="1" hint="This is the type of Book being entered." label="Book type" max_length="40" name="u_book_type_of_book" type="string">
+            <choice>
+                <element hint="Utilice esta selección para libros de audio." label="Audio" language="es" sequence="0" value="0"/>
+                <element hint="Use this section for adio books." label="Audio" sequence="0" value="0"/>
+                <element label="E-Book" sequence="1" value="1"/>
+                <element label="E-libro" language="es" sequence="1" value="1"/>
+                <element label="Hardcover" sequence="2" value="2"/>
+                <element label="Libro de tapa dura" language="es" sequence="2" value="2"/>
+                <element label="Magazine" sequence="3" value="3"/>
+                <element label="Revista" language="es" sequence="3" value="3"/>
+                <element label="libro de tapa blanda" language="es" sequence="4" value="4"/>
+                <element label="Paperback" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_book_upc" type="string"/>
+        <element attributes="ref_ac_order_by=true,ref_ac_display_value,edge_encryption_enabled=true" hint="Ingrese un valor entre 1900 y año actual o &quot;Otro&quot;" label="Year printed" max_length="4" name="u_book_year_printed" reference="x_132308_mediabase_years" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,ref_auto_completer=true" hint="Enter a value between 1900 &amp; current year or &quot;Other&quot;" label="Year released" max_length="4" name="u_book_year_released" reference="x_132308_mediabase_years" type="reference"/>
+        <index name="index">
+            <element name="u_book_publisher_country"/>
+        </index>
+        <index name="index2">
+            <element name="u_book_file_extension"/>
+        </index>
+        <index name="index3">
+            <element name="u_book_genre"/>
+        </index>
+        <index name="index4">
+            <element name="u_book_topic"/>
+        </index>
+        <index name="index5">
+            <element name="u_book_language"/>
+        </index>
+        <index name="index6">
+            <element name="u_book_idioma"/>
+        </index>
+        <index name="index7">
+            <element name="u_book_purchase_currency"/>
+        </index>
+    </element>
+</database>

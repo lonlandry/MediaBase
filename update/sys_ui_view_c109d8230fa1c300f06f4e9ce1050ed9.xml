@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>exp_d4909d8230fa1c300f06f4e9ce1050ed8</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-07 14:36:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c109d8230fa1c300f06f4e9ce1050ed9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exp_d4909d8230fa1c300f06f4e9ce1050ed8</sys_name>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_ui_view_c109d8230fa1c300f06f4e9ce1050ed9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-07 14:36:03</sys_updated_on>
+        <title>Exp_d4909d8230fa1c300f06f4e9ce1050ed8</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

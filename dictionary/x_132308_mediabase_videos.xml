@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="all_tables.text_index_translations=true,live_feed=true" label="Video" max_length="40" name="x_132308_mediabase_videos" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Record no." max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="B movie?" max_length="40" name="u_movie_b_movie" type="boolean"/>
+        <element default="687b810e0ff90300f06f4e9ce1050ec1" label="Audio" max_length="32" name="u_video_audio" reference="x_132308_mediabase_languages" type="reference"/>
+        <element default="780fc58e0ff90300f06f4e9ce1050e7f" label="Audio" max_length="32" name="u_video_audio_es" reference="x_132308_mediabase_idiomas" type="reference"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="Cast" max_length="65536" name="u_video_cast" type="wiki_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Codec" max_length="40" name="u_video_codec" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="512" name="u_video_comments" type="translated_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Director" max_length="128" name="u_video_director" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Episode no." max_length="5" name="u_video_episode_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Episode title" max_length="256" name="u_video_episode_title" type="string"/>
+        <element attributes="ref_ac_order_by,edge_encryption_enabled=true" label="File extension" max_length="40" name="u_video_file_extension" reference="x_132308_mediabase_video_file_extension" type="reference"/>
+        <element attributes="ref_ac_display_value" label="Studio" max_length="32" name="u_video_film_studio" reference="x_132308_mediabase_movie_studio" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Format" max_length="40" name="u_video_format" type="string">
+            <choice>
+                <element label="Blu-ray" sequence="0" value="0"/>
+                <element label="Digital" sequence="1" value="1"/>
+                <element label="DVD" sequence="2" value="2"/>
+                <element label="Network" sequence="3" value="3"/>
+                <element label="Red" language="es" sequence="3" value="3"/>
+                <element label="Cinta de video" language="es" sequence="4" value="4"/>
+                <element label="VHS" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Genre" max_length="32" name="u_video_genre" reference="x_132308_mediabase_video_genre" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="IMDB" max_length="40" name="u_video_imdb" type="string"/>
+        <element label="Poster" max_length="8000" name="u_video_movie_poster" type="translated_html"/>
+        <element attributes="edge_encryption_enabled=true" label="Music by" max_length="40" name="u_video_music_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other file ext." max_length="40" name="u_video_other_file_ext" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other genre" max_length="40" name="u_video_other_genre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other studio" max_length="40" name="u_video_other_studio" type="string"/>
+        <element label="Presentation format" max_length="40" name="u_video_presentation_format" type="translated_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Video producer" max_length="40" name="u_video_producer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Rated" max_length="40" name="u_video_rated" type="string"/>
+        <element label="Series?" max_length="40" name="u_video_series" type="boolean"/>
+        <element label="Series name" max_length="40" name="u_video_series_name" type="translated_text"/>
+        <element label="Storage location" max_length="40" name="u_video_storage_location" type="translated_text"/>
+        <element default="647b810e0ff90300f06f4e9ce1050ed6" label="Subtitles" max_length="32" name="u_video_subtitles" reference="x_132308_mediabase_languages" type="reference"/>
+        <element default="240fc58e0ff90300f06f4e9ce1050e6b" label="Subtítulos" max_length="32" name="u_video_subtitulos" reference="x_132308_mediabase_idiomas" type="reference"/>
+        <element label="Synopsis" max_length="65536" name="u_video_synopsis" type="translated_html"/>
+        <element display="true" label="Title" max_length="256" name="u_video_title" type="translated_text"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_video_upc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Year released" max_length="4" name="u_video_year_released" type="string"/>
+        <index name="index">
+            <element name="u_video_genre"/>
+        </index>
+        <index name="index2">
+            <element name="u_video_audio_es"/>
+        </index>
+        <index name="index3">
+            <element name="u_video_subtitulos"/>
+        </index>
+        <index name="index4">
+            <element name="u_video_subtitles"/>
+        </index>
+        <index name="index5">
+            <element name="u_video_film_studio"/>
+        </index>
+        <index name="index6">
+            <element name="u_video_audio"/>
+        </index>
+    </element>
+</database>

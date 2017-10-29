@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Equipment - display the Other type field if the Equipment type field is "Other". -en&#13;
+Equipo: muestre el campo Otro tipo si el campo Tipo de equipo es "Otro". - es</description>
+        <field>u_equipment_type</field>
+        <global>true</global>
+        <messages/>
+        <name>Equipment - display Other type field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   //If there is a change on the form
+   // Si hay un cambio en el formulario
+   if (!isLoading) {
+      //If the new value is Other - en
+	  // Si el nuevo valor es Otro - es
+      if(newValue == 'Other') {
+   
+   //Show: Type other field
+   // Mostrar: escriba otro campo
+         g_form.setDisplay('u_equipment_type_other', true);
+ 
+
+   if(newValue != 'Other') {
+   
+   //Hide: Type other field
+   // Ocultar: escriba otro campo
+         g_form.setDisplay('u_equipment_type_other', false);
+   
+   }  
+   
+      }
+      
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-22 03:53:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dc94d3cc0f4a4700f06f4e9ce1050e15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipment - display Other type field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_script_client_dc94d3cc0f4a4700f06f4e9ce1050e15</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-22 03:53:29</sys_updated_on>
+        <table>x_132308_mediabase_equipment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="x_132308_mediabase_comics">
+    <x_132308_mediabase_comics action="INSERT_OR_UPDATE">
+        <number>COMC0228</number>
+        <sys_class_name>x_132308_mediabase_comics</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-17 19:39:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a16e74be0ff58300f06f4e9ce1050e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>x_132308_mediabase_comics_a16e74be0ff58300f06f4e9ce1050e18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-17 19:39:38</sys_updated_on>
+        <u_comics_caption/>
+        <u_comics_comments/>
+        <u_comics_condition/>
+        <u_comics_cover_image/>
+        <u_comics_cover_price/>
+        <u_comics_difference/>
+        <u_comics_direct_sales>false</u_comics_direct_sales>
+        <u_comics_ebook>false</u_comics_ebook>
+        <u_comics_estimated_value/>
+        <u_comics_file_ext_other/>
+        <u_comics_file_extension/>
+        <u_comics_genre/>
+        <u_comics_idioma/>
+        <u_comics_isbn_10/>
+        <u_comics_isbn_13/>
+        <u_comics_isbn_8/>
+        <u_comics_issue_no>91</u_comics_issue_no>
+        <u_comics_language display_value="English">687b810e0ff90300f06f4e9ce1050ec1</u_comics_language>
+        <u_comics_no_of_pages/>
+        <u_comics_other_genre/>
+        <u_comics_publication_date/>
+        <u_comics_publisher>Bongo</u_comics_publisher>
+        <u_comics_publisher_country display_value="United States of America (USA)">182130670fe1c300f06f4e9ce1050eeb</u_comics_publisher_country>
+        <u_comics_record_currency/>
+        <u_comics_series>Simpsons Comics</u_comics_series>
+        <u_comics_stories/>
+        <u_comics_synopsis/>
+        <u_comics_title>Simpsons Comics 91</u_comics_title>
+        <u_comics_trade_paperback>false</u_comics_trade_paperback>
+        <u_comics_upc>759606028511-09111</u_comics_upc>
+        <u_comics_user_lang>English</u_comics_user_lang>
+        <u_comics_year/>
+        <u_cover_month/>
+    </x_132308_mediabase_comics>
+</record_update>

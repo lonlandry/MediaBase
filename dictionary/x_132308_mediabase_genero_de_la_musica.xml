@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Genero de la musica" max_length="40" name="x_132308_mediabase_genero_de_la_musica" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Núm. de registro" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element display="true" label="Nombre del género" max_length="40" name="u_genero_musica_nombre" type="string"/>
+    </element>
+</database>

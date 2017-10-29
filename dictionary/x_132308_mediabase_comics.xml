@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="update_synch=true,live_feed=true" extends="sys_metadata" label="Historietas" max_length="40" name="x_132308_mediabase_comics" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Record no." max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Caption" max_length="128" name="u_comics_caption" type="translated_text"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="512" name="u_comics_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Condition" max_length="40" name="u_comics_condition" type="string">
+            <choice>
+                <element label="Mint" sequence="0" value="0"/>
+                <element hint="Mint" label="Nuevo" language="es" sequence="0" value="0"/>
+                <element hint="Near Mint" label="Casi nueva" language="es" sequence="1" value="1"/>
+                <element label="Near Mint" sequence="1" value="1"/>
+                <element label="Muy fina" language="es" sequence="2" value="2"/>
+                <element label="Very Fine" sequence="2" value="2"/>
+                <element label="Fine" sequence="3" value="3"/>
+                <element label="Fino" language="es" sequence="3" value="3"/>
+                <element label="Muy bueno" language="es" sequence="4" value="4"/>
+                <element label="Very Good" sequence="4" value="4"/>
+                <element label="Bueno" language="es" sequence="5" value="5"/>
+                <element label="Good" sequence="5" value="5"/>
+                <element label="Fair" sequence="6" value="6"/>
+                <element label="Okay" language="es" sequence="6" value="6"/>
+                <element label="Poor" sequence="7" value="7"/>
+                <element label="Valor de baja" language="es" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element label="Cover" max_length="65536" name="u_comics_cover_image" type="html"/>
+        <element label="Cover price" max_length="15" name="u_comics_cover_price" type="decimal"/>
+        <element label="Difference" max_length="15" name="u_comics_difference" read_only="true" type="decimal"/>
+        <element label="Direct" max_length="40" name="u_comics_direct_sales" type="boolean"/>
+        <element label="E-book?" max_length="40" name="u_comics_ebook" type="boolean"/>
+        <element label="Estimated value" max_length="15" name="u_comics_estimated_value" type="decimal"/>
+        <element default="8c3ee3e20f358300f06f4e9ce1050ec1" label="File extension" max_length="32" name="u_comics_file_extension" reference="x_132308_mediabase_e_book_file_extensions" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other extension" max_length="40" name="u_comics_file_ext_other" type="string"/>
+        <element label="Genre" max_length="32" name="u_comics_genre" reference="x_132308_mediabase_comics_genre" type="reference"/>
+        <element default="780fc58e0ff90300f06f4e9ce1050e7f" label="Idioma" max_length="32" name="u_comics_idioma" reference="x_132308_mediabase_idiomas" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-10" max_length="40" name="u_comics_isbn_10" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-13" max_length="40" name="u_comics_isbn_13" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ISBN-8" max_length="40" name="u_comics_isbn_8" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Issue no." max_length="4" name="u_comics_issue_no" type="string"/>
+        <element default="687b810e0ff90300f06f4e9ce1050ec1" label="Language" max_length="32" name="u_comics_language" reference="x_132308_mediabase_languages" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="No. of pages" max_length="3" name="u_comics_no_of_pages" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other genre" max_length="40" name="u_comics_other_genre" type="string"/>
+        <element label="Publication date" max_length="40" name="u_comics_publication_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Publisher" max_length="64" name="u_comics_publisher" type="string"/>
+        <element default="182130670fe1c300f06f4e9ce1050eeb" label="Publisher country" max_length="32" name="u_comics_publisher_country" reference="x_132308_mediabase_countries" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="5a6ee69c0ff90300f06f4e9ce1050e04" label="Purchase currency" max_length="40" name="u_comics_record_currency" reference="x_132308_mediabase_currencies" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Series" max_length="128" name="u_comics_series" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Stories" max_length="512" name="u_comics_stories" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Synopsis" max_length="40" name="u_comics_synopsis" type="string"/>
+        <element label="Title" max_length="128" name="u_comics_title" type="translated_text"/>
+        <element label="Trade paperback" max_length="40" name="u_comics_trade_paperback" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="UPC" max_length="40" name="u_comics_upc" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User language" max_length="40" name="u_comics_user_lang" type="string"/>
+        <element attributes="ref_ac_display_value=true,edge_encryption_enabled=true" label="Cover year" max_length="40" name="u_comics_year" reference="x_132308_mediabase_years" type="reference"/>
+        <element label="Cover month" max_length="32" name="u_cover_month" reference="x_132308_mediabase_months" type="reference"/>
+        <index name="index">
+            <element name="u_comics_file_extension"/>
+        </index>
+        <index name="index2">
+            <element name="u_comics_language"/>
+        </index>
+        <index name="index3">
+            <element name="u_comics_publisher_country"/>
+        </index>
+        <index name="index4">
+            <element name="u_comics_idioma"/>
+        </index>
+        <index name="index5">
+            <element name="u_comics_genre"/>
+        </index>
+        <index name="index6">
+            <element name="u_cover_month"/>
+        </index>
+    </element>
+</database>

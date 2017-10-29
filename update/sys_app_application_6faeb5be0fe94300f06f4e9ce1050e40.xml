@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>MediaBase is your one-stop database for media and media equipment management.</description>
+        <device_type>browser</device_type>
+        <hint>MediaBase is your one-stop database for media and media equipment management.</hint>
+        <name/>
+        <order>100</order>
+        <roles>x_132308_mediabase.book_genre_user,x_132308_mediabase.book_topic_user,x_132308_mediabase.books_user,x_132308_mediabase.comics_user,x_132308_mediabase.condition_user,x_132308_mediabase.countries_user,x_132308_mediabase.equipment_type_user,x_132308_mediabase.equipment_user,x_132308_mediabase.months_user,x_132308_mediabase.music_user,x_132308_mediabase.screen_resolution_user,x_132308_mediabase.video_games_user,x_132308_mediabase.video_genre_user,x_132308_mediabase.videos_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-05 14:08:19</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6faeb5be0fe94300f06f4e9ce1050e40</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Mediabase</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_app_application_6faeb5be0fe94300f06f4e9ce1050e40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-10-10 04:43:32</sys_updated_on>
+        <title>Mediabase</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

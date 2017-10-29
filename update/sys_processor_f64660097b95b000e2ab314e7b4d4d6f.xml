@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_processor">
+    <sys_processor action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <description>Export data in Update Set format and download the file&#13;
+Usage:  &#13;
+   filename -- this is the desired output file name&#13;
+   tablesCSV -- A comma separated list of TABLENAME|ENCODEDQUERY values.  The |EncodedQuery value is optional.  If non is specified, then all records will be pulled.&#13;
+Example:&#13;
+   export_table_data.do?filename=MyOutputFile&amp;tablesCSV=incident%2Csys_journal_field%7Cname%3Dtask%5Eelement%3Dcomments</description>
+        <interactive>false</interactive>
+        <name>Export Table Data</name>
+        <parameters/>
+        <params_endpoint/>
+        <path>export_table_data</path>
+        <path_endpoint/>
+        <require_csrf>false</require_csrf>
+        <roles/>
+        <script><![CDATA[var tables = ""+Packages.com.glide.util.StringUtil.urlDecode(g_request.getParameter("tablesCSV"));
+var tArray = tables.split(',');
+
+var filename = g_request.getParameter("filename");
+
+if( gs.hasRole("admin") ){
+   
+   var et = new ExportTables();
+   et.setFileName(filename);
+   
+   for(var i=0; i<tArray.length; i++){
+      var parts = tArray[i].split("|");
+
+      if(parts.length == 1){
+         var q = "";
+      } else {
+         var q = parts[1];
+      }
+      et.addTable(parts[0], q);
+   }
+
+   et.exportAll(g_response);
+} else {
+   g_processor.writeOutput("ERROR: Insufficient Rights to Perform this Operation");
+}]]></script>
+        <sys_class_name>sys_processor</sys_class_name>
+        <sys_created_by>john.andersen</sys_created_by>
+        <sys_created_on>2012-10-23 21:13:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f64660097b95b000e2ab314e7b4d4d6f</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Export Table Data</sys_name>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_processor_f64660097b95b000e2ab314e7b4d4d6f</sys_update_name>
+        <sys_updated_by>john.andersen@snc</sys_updated_by>
+        <sys_updated_on>2012-10-25 17:19:27</sys_updated_on>
+        <type>script</type>
+    </sys_processor>
+</record_update>
