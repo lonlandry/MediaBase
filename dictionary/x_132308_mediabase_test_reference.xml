@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="all_tables.text_index_translations=true,live_feed=true" label="Test Reference" max_length="40" name="x_132308_mediabase_test_reference" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element display="true" label="Reference data" max_length="40" name="u_reference_data" type="translated_text"/>
+    </element>
+</database>

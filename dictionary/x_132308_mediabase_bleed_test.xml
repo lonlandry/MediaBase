@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Bleed Test" max_length="40" name="x_132308_mediabase_bleed_test" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="u_test_field_comments" type="string"/>
+        <element label="Test field 4" max_length="40" name="u_test_field_four_unique" type="string"/>
+        <element label="Test field 1" max_length="40" name="u_test_field_one" type="translated_text"/>
+        <element label="Test field 3" max_length="40" name="u_test_field_three" reference="x_132308_mediabase_test_reference" type="reference"/>
+        <element label="Test field 2" max_length="40" name="u_test_field_two" type="string"/>
+    </element>
+</database>
