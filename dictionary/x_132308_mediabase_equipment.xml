@@ -87,6 +87,7 @@
         <element attributes="edge_encryption_enabled=true" label="Support phone no." max_length="40" name="u_equipment_support_phone_no" type="string"/>
         <element attributes="ref_ac_display_value=true" label="Equipment type" max_length="32" name="u_equipment_type" reference="x_132308_mediabase_equipment_type" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Other type" max_length="40" name="u_equipment_type_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User ID" max_length="40" name="u_equipment_user_id" type="string"/>
         <element label="Value" max_length="15" name="u_equipment_value" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Vendor" max_length="40" name="u_equipment_vendor" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Warranty type" max_length="40" name="u_equipment_warranty_type" type="string">
