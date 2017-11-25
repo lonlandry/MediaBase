@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Equipment - Populate the Purchase date field with the current date if the Purchase date field is empty</description>
+        <field>u_equipment_serv_begin</field>
+        <global>true</global>
+        <messages/>
+        <name>Equipment - Populate Purchase date field</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   
+	var date = new GlideDate();
+	g_form.getValue(date);
+	g_form.setValue('u_equipment_purchase_date', date);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-15 13:45:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4caab0400f628300f06f4e9ce1050eaf</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Equipment - Populate Purchase date field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_script_client_4caab0400f628300f06f4e9ce1050eaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-16 11:56:15</sys_updated_on>
+        <table>x_132308_mediabase_equipment</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

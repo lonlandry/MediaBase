@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Section Redirect - Equipment - Display Spanish Sections</description>
+        <field>u_equipment_serv_begin</field>
+        <global>true</global>
+        <messages/>
+        <name>Section Redirect - Equipment - es</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	if(g_lang == 'es'){ 
+  g_form.setSectionDisplay('datos_decompra', true); 
+  g_form.setSectionDisplay('purchase_data', false);
+
+  g_form.setSectionDisplay('garantía', true); 
+  g_form.setSectionDisplay('warranty', false);		
+	
+  g_form.setSectionDisplay('garantía_deservicio', true); 
+  g_form.setSectionDisplay('service_warranty', false);
+		
+  g_form.setSectionDisplay('reventa', true); 
+  g_form.setSectionDisplay('resale', false);
+		
+  g_form.setSectionDisplay('devolución_delproducto', true); 
+  g_form.setSectionDisplay('returns', false);
+
+	}
+	
+else if(g_lang == 'en'){
+   g_form.setSectionDisplay('datos_decompra', false); 
+  g_form.setSectionDisplay('purchase_data', true);
+
+  g_form.setSectionDisplay('garantía', false); 
+  g_form.setSectionDisplay('warranty', true);		
+	
+  g_form.setSectionDisplay('garantía_deservicio', false); 
+  g_form.setSectionDisplay('service_warranty', true);
+		
+  g_form.setSectionDisplay('reventa', false); 
+  g_form.setSectionDisplay('resale', true);
+		
+  g_form.setSectionDisplay('devolución_delproducto', false); 
+  g_form.setSectionDisplay('returns', true);
+	
+	}	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-14 16:32:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbfe5cbf0f964300f06f4e9ce1050e19</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Section Redirect - Equipment - es</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_script_client_fbfe5cbf0f964300f06f4e9ce1050e19</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-16 13:20:52</sys_updated_on>
+        <table>x_132308_mediabase_equipment</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

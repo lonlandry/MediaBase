@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Warranty" section_id="e0ce10ce0f620300f06f4e9ce1050ec5" sys_domain="global" table="x_132308_mediabase_equipment" version="3" view="English">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_master_warranty</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>b8ce90ce0f620300f06f4e9ce1050e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_warr_class</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>3cce90ce0f620300f06f4e9ce1050e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_coverage_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>bcce90ce0f620300f06f4e9ce1050e98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_w_begin_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>30ce90ce0f620300f06f4e9ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_w_end_date</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>b0ce90ce0f620300f06f4e9ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_warranty_type</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>34ce90ce0f620300f06f4e9ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>b4ce90ce0f620300f06f4e9ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_ext_warranty</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>38ce90ce0f620300f06f4e9ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_ext_begin_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>b8ce90ce0f620300f06f4e9ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_ext_end_date</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>3cce90ce0f620300f06f4e9ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_forward_warr</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>bcce90ce0f620300f06f4e9ce1050e99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_inherit_warr</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:04</sys_created_on>
+            <sys_id>30ce90ce0f620300f06f4e9ce1050e9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="28ce10ce0f620300f06f4e9ce1050ec1">e0ce10ce0f620300f06f4e9ce1050ec5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Warranty</caption>
+            <header>false</header>
+            <name>x_132308_mediabase_equipment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0ce10ce0f620300f06f4e9ce1050ec5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Warranty</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_ui_section_e0ce10ce0f620300f06f4e9ce1050ec5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="English" name="English">28ce10ce0f620300f06f4e9ce1050ec1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

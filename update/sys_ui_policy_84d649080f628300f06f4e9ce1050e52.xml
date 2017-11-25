@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions table="x_132308_mediabase_equipment">u_equipment_purchase_dateISEMPTY^EQ<item endquery="false" field="u_equipment_purchase_date" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>4350</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+var date = new GlideDate();
+	g_form.setValue('u_equipment_purchase_date', date);
+}]]></script_true>
+        <set_values/>
+        <short_description>Equipment - Populate the Purchase date field with the current date if the Purchase date field is empty</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-15 14:13:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84d649080f628300f06f4e9ce1050e52</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Equipment - Populate the Purchase date field with the current date if the Purchase date field is empty</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_ui_policy_84d649080f628300f06f4e9ce1050e52</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-16 12:00:22</sys_updated_on>
+        <table>x_132308_mediabase_equipment</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

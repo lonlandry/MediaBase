@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Datos de compra" section_id="a1fed0ce0f620300f06f4e9ce1050ef6" sys_domain="global" table="x_132308_mediabase_equipment" version="3" view="castellano">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_costo</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>b9fe54ce0f620300f06f4e9ce1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_moneda</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>3dfe54ce0f620300f06f4e9ce1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_vendedor</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>bdfe54ce0f620300f06f4e9ce1050e12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_datos_contacto</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>31fe54ce0f620300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_fecha_de_compra</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>b1fe54ce0f620300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_estado_adquiere</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>35fe54ce0f620300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>b5fe54ce0f620300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_fabricante</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>39fe54ce0f620300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_num_de_serie</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>b9fe54ce0f620300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_marco</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>3dfe54ce0f620300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_equipment_modelo</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_id>bdfe54ce0f620300f06f4e9ce1050e13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="edfed0ce0f620300f06f4e9ce1050ef2">a1fed0ce0f620300f06f4e9ce1050ef6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Datos de compra</caption>
+            <header>false</header>
+            <name>x_132308_mediabase_equipment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-21 16:13:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1fed0ce0f620300f06f4e9ce1050ef6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Datos de compra</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+            <sys_update_name>sys_ui_section_a1fed0ce0f620300f06f4e9ce1050ef6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 16:13:57</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="castellano" name="castellano">edfed0ce0f620300f06f4e9ce1050ef2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

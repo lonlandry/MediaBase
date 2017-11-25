@@ -18,58 +18,58 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-10-14 15:08:59</sys_created_on>
+            <sys_created_on>2017-11-21 14:07:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>73a3a4b90f310300f06f4e9ce1050ee7</sys_id>
+            <sys_id>aa02c4020f620300f06f4e9ce1050ead</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
-            <sys_ui_section caption="Purchase data" display_value="Purchase data" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">67a364b90f310300f06f4e9ce1050e46</sys_ui_section>
+            <sys_ui_section caption="Información general" display_value="Información general" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">260244020f620300f06f4e9ce1050ef4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-10-14 15:08:59</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-10-14 16:09:35</sys_created_on>
+            <sys_created_on>2017-11-21 14:07:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1781f4710f710300f06f4e9ce1050e81</sys_id>
+            <sys_id>6e02c4020f620300f06f4e9ce1050eb4</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
-            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">938174710f710300f06f4e9ce1050ee3</sys_ui_section>
+            <sys_ui_section caption="Informação geral" display_value="Informação geral" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">2e0244020f620300f06f4e9ce1050ef4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-10-14 16:09:35</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-10-10 18:51:52</sys_created_on>
+            <sys_created_on>2017-10-14 15:08:59</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>ad50bc640f714300f06f4e9ce1050e20</sys_id>
+            <sys_id>73a3a4b90f310300f06f4e9ce1050ee7</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
-            <sys_ui_section caption="Service Warranty" display_value="Service Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">25507c640f714300f06f4e9ce1050e0b</sys_ui_section>
+            <sys_ui_section caption="Purchase data" display_value="Purchase data" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">67a364b90f310300f06f4e9ce1050e46</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-10-14 16:09:35</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-10-10 19:02:43</sys_created_on>
+            <sys_created_on>2017-11-14 15:11:41</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5cd2f4280f714300f06f4e9ce1050e54</sys_id>
+            <sys_id>619d04f30f964300f06f4e9ce1050e6f</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
-            <sys_ui_section caption="Resale" display_value="Resale" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">50d2f4280f714300f06f4e9ce1050e52</sys_ui_section>
+            <sys_ui_section caption="Datos de compra" display_value="Datos de compra" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed9d80f30f964300f06f4e9ce1050e2e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-10-14 16:09:35</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>5</position>
@@ -77,13 +77,111 @@
             <sys_created_on>2017-10-14 16:09:35</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_id>1781f4710f710300f06f4e9ce1050e81</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
+            <sys_ui_section caption="Warranty" display_value="Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">938174710f710300f06f4e9ce1050ee3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-15 02:42:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88abee770f1e4300f06f4e9ce1050e2b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
+            <sys_ui_section caption="Garantía" display_value="Garantía" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">44ab6e770f1e4300f06f4e9ce1050e59</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 18:51:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ad50bc640f714300f06f4e9ce1050e20</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
+            <sys_ui_section caption="Service Warranty" display_value="Service Warranty" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">25507c640f714300f06f4e9ce1050e0b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-15 02:42:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84abee770f1e4300f06f4e9ce1050e31</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
+            <sys_ui_section caption="Garantía de servicio" display_value="Garantía de servicio" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">80ab6e770f1e4300f06f4e9ce1050e5a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-10 19:02:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cd2f4280f714300f06f4e9ce1050e54</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
+            <sys_ui_section caption="Resale" display_value="Resale" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">50d2f4280f714300f06f4e9ce1050e52</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-15 02:42:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4abee770f1e4300f06f4e9ce1050e37</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
+            <sys_ui_section caption="Reventa" display_value="Reventa" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">c8ab6e770f1e4300f06f4e9ce1050e5a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-14 16:09:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
             <sys_id>1f81f4710f710300f06f4e9ce1050e85</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
             <sys_ui_section caption="Returns" display_value="Returns" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">1f8174710f710300f06f4e9ce1050ee3</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-10-14 16:09:35</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-15 02:42:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cabee770f1e4300f06f4e9ce1050e3d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_132308_mediabase_equipment" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">ed50bc640f714300f06f4e9ce1050e1d</sys_ui_form>
+            <sys_ui_section caption="Devolución del producto" display_value="Devolución del producto" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">04ab6e770f1e4300f06f4e9ce1050e5b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-21 14:07:35</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_132308_mediabase_equipment</name>

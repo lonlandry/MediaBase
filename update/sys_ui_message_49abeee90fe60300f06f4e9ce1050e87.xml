@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <key>You are currently on the form view</key>
+        <language>en</language>
+        <message>You are currently on the form view</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-20 13:11:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>49abeee90fe60300f06f4e9ce1050e87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>You are currently on the form view</sys_name>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sys_ui_message_49abeee90fe60300f06f4e9ce1050e87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-20 13:11:36</sys_updated_on>
+    </sys_ui_message>
+</record_update>

@@ -5,13 +5,13 @@
             <element>u_equipment_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>fa51c7cb0f920300f06f4e9ce1050ebc</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>e70208020f620300f06f4e9ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_equipment_type</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>b251c7cb0f920300f06f4e9ce1050ebd</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>6b0208020f620300f06f4e9ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>u_equipment_type_other</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>3651c7cb0f920300f06f4e9ce1050ebd</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>eb0208020f620300f06f4e9ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>u_equipment_resolution</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>b651c7cb0f920300f06f4e9ce1050ebd</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>6f0208020f620300f06f4e9ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>u_equipment_resolution_other</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>3a51c7cb0f920300f06f4e9ce1050ebd</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>ef0208020f620300f06f4e9ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>ba51c7cb0f920300f06f4e9ce1050ebd</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>630208020f620300f06f4e9ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>number</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>3e51c7cb0f920300f06f4e9ce1050ebd</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>e30208020f620300f06f4e9ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>u_equipment_user_id</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>be51c7cb0f920300f06f4e9ce1050ebd</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>670208020f620300f06f4e9ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>u_equipment_image</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>3251c7cb0f920300f06f4e9ce1050ebe</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>e70208020f620300f06f4e9ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,69 +131,41 @@
             <element>u_eqpt_colors</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>b251c7cb0f920300f06f4e9ce1050ebe</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>6b0208020f620300f06f4e9ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_eqpt_colores</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>3651c7cb0f920300f06f4e9ce1050ebe</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_cores0_cor</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>b651c7cb0f920300f06f4e9ce1050ebe</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_equipment_description</element>
-            <position>12</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>3a51c7cb0f920300f06f4e9ce1050ebe</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>eb0208020f620300f06f4e9ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_equipment_notes</element>
-            <position>13</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-11-12 20:21:40</sys_created_on>
-            <sys_id>ba51c7cb0f920300f06f4e9ce1050ebe</sys_id>
+            <sys_created_on>2017-11-21 14:07:39</sys_created_on>
+            <sys_id>6f0208020f620300f06f4e9ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="General Information" display_value="General Information" name="x_132308_mediabase_equipment" sys_domain="global" view="Default view">fc22c03f0f2dc300f06f4e9ce1050e1e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-11-12 20:21:40</sys_updated_on>
+            <sys_updated_on>2017-11-21 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
