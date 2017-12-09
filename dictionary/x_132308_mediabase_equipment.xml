@@ -2,7 +2,7 @@
 <database>
     <element attributes="all_tables.text_index_translations=true,live_feed=true" label="Equipo" max_length="40" name="x_132308_mediabase_equipment" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Record no." max_length="40" name="number" read_only="true" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Cor" max_length="32" name="u_cores0_cor" reference="x_132308_mediabase_cores0" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="cr" label="Return type" max_length="40" name="u_eqipment_return_type" type="string_full_utf8">
             <choice>
@@ -164,70 +164,42 @@
         </element>
         <element label="Begin date" max_length="40" name="u_equipment_w_begin_date" type="glide_date"/>
         <element label="End date" max_length="40" name="u_equipment_w_end_date" type="glide_date"/>
-        <element label="New Date" max_length="40" name="u_glide_date_30" type="glide_date"/>
-        <element label="New Date" max_length="40" name="u_glide_date_31" type="glide_date"/>
-        <element label="New Date" max_length="40" name="u_glide_date_36" type="glide_date"/>
-        <element label="New Date" max_length="40" name="u_glide_date_37" type="glide_date"/>
-        <element label="New HTML" max_length="65536" name="u_html_9" type="html"/>
-        <element label="New Reference" max_length="32" name="u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
-        <element label="New Reference" max_length="32" name="u_reference_5" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element hint="La fecha en que el vendedor o el servicio recibió el artículo" label="Date received" max_length="40" name="u_returns_date_received" type="glide_date"/>
         <element label="Return amount" max_length="15" name="u_return_amount" type="decimal"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_15" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_28" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_32" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_33" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_34" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_35" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_39" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_4" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_40" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_6" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_7" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_8" type="string"/>
-        <element label="New Translated Text" max_length="40" name="u_translated_text_10" type="translated_text"/>
-        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="New Wiki" max_length="65536" name="u_wiki_text_11" type="wiki_text"/>
-        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="New Wiki" max_length="65536" name="u_wiki_text_41" type="wiki_text"/>
         <index name="index">
             <element name="u_equipment_estado_adquiere"/>
         </index>
         <index name="index2">
-            <element name="u_reference_5"/>
-        </index>
-        <index name="index3">
             <element name="u_equipment_type"/>
         </index>
-        <index name="index4">
-            <element name="u_reference_3"/>
-        </index>
-        <index name="index5">
+        <index name="index3">
             <element name="u_equipment_currency"/>
         </index>
-        <index name="index6">
+        <index name="index4">
             <element name="u_cores0_cor"/>
         </index>
-        <index name="index7">
+        <index name="index5">
             <element name="u_equipment_tipo_equipo"/>
         </index>
-        <index name="index8">
+        <index name="index6">
             <element name="u_equipment_condition_purch"/>
         </index>
-        <index name="index9">
+        <index name="index7">
             <element name="u_equipment_moneda"/>
         </index>
-        <index name="index10">
+        <index name="index8">
             <element name="u_equipment_condition"/>
         </index>
-        <index name="index11">
+        <index name="index9">
             <element name="u_eqpt_colors"/>
         </index>
-        <index name="index12">
+        <index name="index10">
             <element name="u_equipment_condicion_actual"/>
         </index>
-        <index name="index13">
+        <index name="index11">
             <element name="u_equipment_resolution"/>
         </index>
-        <index name="index14">
+        <index name="index12">
             <element name="u_eqpt_colores"/>
         </index>
     </element>

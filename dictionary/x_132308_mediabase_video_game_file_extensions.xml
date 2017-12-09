@@ -2,7 +2,7 @@
 <database>
     <element attributes="all_tables.text_index_translations=true,live_feed=true" label="Extensiones de Archivos de Videojuegos" max_length="40" name="x_132308_mediabase_video_game_file_extensions" type="collection">
         <element label="Record no." max_length="40" name="number" type="string"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Console" max_length="40" name="u_video_games_fe_console" type="string"/>
         <element display="true" label="File Extension" max_length="40" name="u_video_games_fe_file_extension" type="translated_text"/>
     </element>

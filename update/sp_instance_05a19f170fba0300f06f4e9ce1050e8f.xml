@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">118157170fba0300f06f4e9ce1050eeb</sp_column>
+        <sp_widget display_value="Barcode">12b8f3d3d7033100a9ad1e173e24d406</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-08 12:42:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>05a19f170fba0300f06f4e9ce1050e8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sp_instance_05a19f170fba0300f06f4e9ce1050e8f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-08 12:42:41</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=05a19f170fba0300f06f4e9ce1050e8f"/>
+</record_update>

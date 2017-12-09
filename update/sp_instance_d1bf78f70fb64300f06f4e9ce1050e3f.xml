@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">8386347f0f764300f06f4e9ce1050ea3</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-09 15:22:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d1bf78f70fb64300f06f4e9ce1050e3f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>We are happy to see you here!</sys_name>
+        <sys_package display_value="MediaBase" source="x_132308_mediabase">d22eb93e0fe94300f06f4e9ce1050e16</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="MediaBase">d22eb93e0fe94300f06f4e9ce1050e16</sys_scope>
+        <sys_update_name>sp_instance_d1bf78f70fb64300f06f4e9ce1050e3f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-09 15:33:00</sys_updated_on>
+        <title>We are happy to see you here!</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=d1bf78f70fb64300f06f4e9ce1050e3f"/>
+</record_update>
